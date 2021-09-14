@@ -1,22 +1,27 @@
 # Tableau-Projects
 
 ## Covid Project 
-Columns
-total_cases	Total confirmed cases of COVID-19
-new_cases	New confirmed cases of COVID-19
-new_cases_smoothed	New confirmed cases of COVID-19 (7-day smoothed)
-total_cases_per_million	Total confirmed cases of COVID-19 per 1,000,000 people
-new_cases_per_million	New confirmed cases of COVID-19 per 1,000,000 people
-new_cases_smoothed_per_million	New confirmed cases of COVID-19 (7-day smoothed) per 1,000,000 people
-total_deaths	Total deaths attributed to COVID-19
-new_deaths	New deaths attributed to COVID-19
-new_deaths_smoothed	New deaths attributed to COVID-19 (7-day smoothed)
-total_deaths_per_million	Total deaths attributed to COVID-19 per 1,000,000 people
-new_deaths_per_million	New deaths attributed to COVID-19 per 1,000,000 people
-new_deaths_smoothed_per_million	New deaths attributed to COVID-19 (7-day smoothed) per 1,000,000 people
+### Content
+#### Confirmed cases
+![image](https://user-images.githubusercontent.com/81099459/133228784-ee1fadff-9095-43aa-9a4d-dc7229695954.png)
+#### Confirmed deaths
+![image](https://user-images.githubusercontent.com/81099459/133228890-e321cde3-6948-405a-91d4-8da56b96813a.png)
+#### Hospital & ICU
+![image](https://user-images.githubusercontent.com/81099459/133229017-6c9352e7-a664-4452-b364-62ed8e3bbbf5.png)
+#### Policy responses
+![image](https://user-images.githubusercontent.com/81099459/133229184-6ea1cb5a-1a48-4dae-a117-fbc9217b99f6.png)
+##### Reproduction rate
+![image](https://user-images.githubusercontent.com/81099459/133229300-a9b84547-1aff-4c6c-a381-09ae8fbc46bc.png)
+#### Tests & positivity
+![image](https://user-images.githubusercontent.com/81099459/133229411-18a23309-9cb3-4d29-bad7-07515ebe5846.png)
+#### Vaccinations
+![image](https://user-images.githubusercontent.com/81099459/133229615-21ae2cc5-f21d-4268-a6d6-c44e26ea9708.png)
+#### Others
+![image](https://user-images.githubusercontent.com/81099459/133229750-82144c97-e14c-4779-a3a5-63917904694a.png)
 
 ### Link to tableau public-https://public.tableau.com/views/COVIDANALYSIS_16314401720930/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
 ### Link to dataset-https://ourworldindata.org/covid-deaths
+
 
 ## Olympics Project 
 ### Context
