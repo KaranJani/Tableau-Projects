@@ -1,6 +1,19 @@
 # Tableau-Projects
 
 ## Covid Project 
+Columns
+total_cases	Total confirmed cases of COVID-19
+new_cases	New confirmed cases of COVID-19
+new_cases_smoothed	New confirmed cases of COVID-19 (7-day smoothed)
+total_cases_per_million	Total confirmed cases of COVID-19 per 1,000,000 people
+new_cases_per_million	New confirmed cases of COVID-19 per 1,000,000 people
+new_cases_smoothed_per_million	New confirmed cases of COVID-19 (7-day smoothed) per 1,000,000 people
+total_deaths	Total deaths attributed to COVID-19
+new_deaths	New deaths attributed to COVID-19
+new_deaths_smoothed	New deaths attributed to COVID-19 (7-day smoothed)
+total_deaths_per_million	Total deaths attributed to COVID-19 per 1,000,000 people
+new_deaths_per_million	New deaths attributed to COVID-19 per 1,000,000 people
+new_deaths_smoothed_per_million	New deaths attributed to COVID-19 (7-day smoothed) per 1,000,000 people
 
 ### Link to tableau public-https://public.tableau.com/views/COVIDANALYSIS_16314401720930/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
 ### Link to dataset-https://ourworldindata.org/covid-deaths
@@ -14,7 +27,7 @@ Note that the Winter and Summer Games were held in the same year up until 1992. 
 ### Content
 The file athlete_events.csv contains 271116 rows and 15 columns. Each row corresponds to an individual athlete competing in an individual Olympic event (athlete-events). The columns are:
 
-ID - Unique number for each athlete   
+ID - Unique number for each athlete;
 Name - Athlete's name
 Sex - M or F
 Age - Integer
