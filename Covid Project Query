@@ -1,0 +1,58 @@
+select * from COVIDPROJECT..COVIDDEATH;
+
+--total cases vs total deaths
+--likelihood of dying if affected by covid
+
+select location,date,total_cases,total_deaths,(total_deaths/total_cases)*100 as 'death%'
+from COVIDPROJECT..COVIDDEATH 
+where continent is not null
+--where location like '%india%'
+order by 1,2; 
+
+
+--total cases vs population
+--shows percentage of population affected by covid 
+
+select location,date,total_cases,population,(total_cases/population)*100 as '%affected by covid'
+from COVIDPROJECT..COVIDDEATH 
+where continent is not null
+--where location like '%india%'
+order by 1,2; 
+
+
+--loooking at countries with highest infection rate compared to population
+
+select location,population,date,max(total_cases) as 'highest infection',
+		max((total_cases/population))*100 as '%population infected'
+from COVIDPROJECT..COVIDDEATH 
+where continent is not null
+group by location,population,date
+order by '%population infected' desc;
+
+
+--showing countries with highest death count per population
+
+select location,MAX(cast(total_deaths as int)) as totaldeathcount    
+from COVIDPROJECT..COVIDDEATH 
+where continent is not null
+group by location
+order by totaldeathcount desc;
+
+
+--showing continents with highest death counts
+
+select continent,MAX(cast(total_deaths as int)) as totaldeathcount    
+from COVIDPROJECT..COVIDDEATH 
+where continent is  not null
+group by continent
+order by totaldeathcount desc;
+ 
+
+--global numbers
+
+select sum(new_cases) as total_cases,sum(cast(new_deaths as int)) as total_deaths,
+		(sum(cast(new_deaths as int))/sum(new_cases))*100 as 'death%'
+from COVIDPROJECT..COVIDDEATH
+where continent is not null
+--group by date
+order by 1,2
