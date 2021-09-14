@@ -11,8 +11,10 @@ The file athlete_events.csv contains 271116 rows and 15 columns. Each row corres
 
 ![image](https://user-images.githubusercontent.com/81099459/133230278-8a6f6228-50a1-4048-a2fd-b0c2491aeb71.png)
 
-### Link to tableau public-https://public.tableau.com/views/OLYMPICSDASHBOARD_16283410044830/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
-### Link to dataset-https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results?select=athlete_events.csv
+### Link to tableau public-
+https://public.tableau.com/views/OLYMPICSDASHBOARD_16283410044830/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+### Link to dataset-
+https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results?select=athlete_events.csv
 
 
 
@@ -35,5 +37,7 @@ The file athlete_events.csv contains 271116 rows and 15 columns. Each row corres
 #### Others
 ![image](https://user-images.githubusercontent.com/81099459/133229750-82144c97-e14c-4779-a3a5-63917904694a.png)
 
-### Link to tableau public-https://public.tableau.com/views/COVIDANALYSIS_16314401720930/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
-### Link to dataset-https://ourworldindata.org/covid-deaths
+### Link to tableau public-
+https://public.tableau.com/views/COVIDANALYSIS_16314401720930/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
+### Link to dataset-
+https://ourworldindata.org/covid-deaths
